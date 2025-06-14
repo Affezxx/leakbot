@@ -36,7 +36,7 @@ module.exports = {
 > 👤 **Erstellt von:**
 - <@${interaction.user.id}>`)  
             .setTimestamp()
-                        .setImage('https://cdn.discordapp.com/attachments/1241131307002499135/1317850358231470134/hopeleaksbanner_leak.png?ex=6846e5c9&is=68459449&hm=78a79bf7f68f7d78e4e4596d7301b0b8844a9fc851e5dcf50b5d190732211cdc&') // Beispielbild, bitte anpassen
+                        .setImage('https://cdn.discordapp.com/attachments/1241131307002499135/1317850358231470134/hopeleaksbanner_leak.png?ex=6846e5c9&is=68459449&hm=78a79bf7f68f7d78e4e4596d7301b0b8844a9fc851e5dcf50b5d190732211cdc&') 
             .setFooter({ 
                 text: `Powered by ${interaction.client.user.username}`, 
                 iconURL: interaction.client.user.displayAvatarURL() 
